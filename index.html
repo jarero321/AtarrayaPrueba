@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Pantalla 5</title>
+    <!-- normalize -->
+    <link href="./styles/normalize.css">
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <section class="container">
+
+
+        <!-- barra de navegacion -->
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list__item">
+                    <a href="#">
+                        <img src="img/trending.png" alt="tendringup" />
+                    </a>
+                </li>
+
+                <li class="navbar__list__item">
+                    <a href="#">
+                        <img src="img/assignaments.png" alt="assignaments" />
+                    </a>
+                </li>
+
+                <li class="navbar__list__item">
+                    <a href="#">
+                        <img src="img/setting.png" alt="setting" />
+                    </a>
+                </li>
+
+                <lI class="navbar__list__item">
+                    <a href="#">
+                        <img src="img/icon_user.png" alt="icon_user" />
+                    </a>
+                </lI>
+            </ul>
+        </nav>
+
+
+        <!-- seccion dashboards -->
+        <main class="main">
+            <section class="main__section__dashboard">
+                <h2 class="section__title">Dashboards</h2>
+                <ul class="section__dashboard__ul">
+                    <li class="dashboard__ul__item">
+                        <a class="ul__item__a" href="#">
+                            Status review
+                        </a>
+                    </li>
+
+                    <li class="dashboard__ul__item">
+                        <a class="ul__item__a" href="#">
+                            Analysis
+                        </a>
+                    </li>
+
+                    <li class="dashboard__ul__item">
+                        <a class="ul__item__a" href="#">
+                            Water quality
+                        </a>
+                    </li>
+
+                    <lI class="dashboard__ul__item ">
+                        <a class="ul__item__a target" href="#">
+                            Performance
+                        </a>
+                    </lI>
+                </ul>
+            </section>
+
+
+
+            <!-- seccion overview -->
+            <section class="section__overview">
+                <h2 class="section__title blue">
+                    Overview
+                </h2>
+                <ul class="section__overview_ul">
+                    <li class="section__overview__ul__item">
+                        <div class="overview__ul__item_contain">
+                            <h3 class="title__overview">
+                                Estimated Biomass
+                            </h3>
+                            <p class="section__title blue dark">
+                                2,050 Kg
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="section__overview__ul__item">
+                        <div class="overview__ul__item_contain">
+                            <h3 class="title__overview">
+                                Current Size
+                            </h3>
+                            <p class="section__title blue dark">
+                                12.35 Gr
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="section__overview__ul__item">
+                        <div class="overview__ul__item_contain">
+                            <h3 class="title__overview">
+                                Estimated FCR
+                            </h3>
+                            <p class="section__title blue dark">
+                                2.08
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="section__overview__ul__item">
+                        <div class="overview__ul__item_contain">
+                            <h3 class="title__overview"></h3>
+                            <p class="section__title blue dark"></p>
+                        </div>
+
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- seccion graficos  -->
+            <section class="section__graphs">
+                <div class="section__graphs__options">
+
+                    <a class="section__graphs__options__buttons target__options" href="#">
+                        Weekly Biomass Growth
+                    </a>
+                    <a class="section__graphs__options__buttons" href="#">
+                        Current size
+                    </a>
+                    <a class="section__graphs__options__buttons" href="#">
+                        Estimated FCR
+                    </a>
+
+                </div>
+                <div class="section__graphs__filter">
+                    <h3 class="section__graphs__filter__title">Filter by status:</h3>
+                    <select class="section__graphs__filter__select">
+                        <option>
+                            Failing
+                        </option>
+                    </select>
+                </div>
+                <figure class="section__graphs__filter__figure">
+                    <img src="./img/Grafica.png" alt="Grafica Prueba">
+                </figure>
+            </section>
+
+
+            <!-- seccion generations -->
+
+            <h2 class="section__title blue margin">
+                Generations
+            </h2>
+            <section class="section__generations">
+
+
+                <!-- contenedor tabla generations -->
+                <div class="section__generations__form">
+                    <form class="section__generations__form__container">
+                        <input type="text" placeholder="Search..." class="generations__form__input" />
+                        <button class="generations__form__button"> <img src="img/search.png" alt="search"></button>
+                    </form>
+                    <div class="section__generations__filter">
+                        <h3 class="section__generations__filter__title">Filter by status:</h3>
+                        <select class="section__graphs__filter__select">
+                            <option>
+                                Failing
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="section__generations__table_description">
+                    <p class="section__generations__table_description__p">Generation</p>
+                    <p class="section__generations__table_description__p">Weeks of culture</p>
+                    <p class="section__generations__table_description__p">Estimated Biomass</p>
+                    <p class="section__generations__table_description__p">Current size</p>
+                    <p class="section__generations__table_description__p">Status</p>
+                </div>
+
+
+
+                <!-- contenido tabla -->
+                <section class="section__generations__table_container">
+
+                    <!-- fila 1 -->
+
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+                    <!-- fila 2 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+                    <!-- fila 3 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+
+                    <!-- fila  4 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+
+                    <!-- fila 5 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+                    <!-- fila 6 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+
+
+                    <!-- fila 7 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold ">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+
+
+                    <!-- fila 8 -->
+                    <ul class="section__generations__table_container_row">
+                        <li class="section__generations__table_container_item ">
+                            <p class="table__container_item_p bold">G-26/S</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">34</p>
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">2,500 kg</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item">
+                            <p class="table__container_item_p">12.8 gr</p>
+                            <img src="img/downarrow.png" />
+                        </li>
+                        <li class="section__generations__table_container_item"><img src="img/warning.png"></li>
+                        <li class="section__generations__table_container_item_more"> <a><img src="img/More.png"/> </a> </li>
+                    </ul>
+
+                    <!-- navegacion por pagina -->
+                    <div class="navigation__page">
+                        <a class="navigation__page_a" href="#">
+                            Prev
+                        </a>
+                        <a class="navigation__page_a navigation__page_target" href="#">
+                            1
+                        </a>
+                        <a class="navigation__page_a" href="#">
+                            2
+                        </a>
+                        <a class="navigation__page_a" href="#">
+                            3
+                        </a>
+                        <a class="navigation__page_a" href="#">
+                            ...
+                        </a>
+                        <a class="navigation__page_a" href="#">
+                            10
+                        </a>
+                        <a class="navigation__page_a" href="#">
+                            Next
+                        </a>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </section>
+</body>
+
+</html>
